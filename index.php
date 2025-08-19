@@ -101,7 +101,7 @@ foreach ($device_ips as $ip) {
                         </tr>";
 
                         // Send Data to API
-                        $atten_sender = "http://localhost/gnf_attn_script/attendance_log.php?" . http_build_query([
+                        $atten_sender = "lo?" . http_build_query([
                             'eventTime' => $eventTime,
                             'downloadDate' => $downloadDate,
                             'employeeId' => $attendancedata[1],
